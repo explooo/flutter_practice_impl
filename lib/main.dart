@@ -1,4 +1,3 @@
-import 'dart:js' as js; // Import JavaScript interop
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_tasks_pro/example/graphql.dart';
@@ -40,27 +39,6 @@ class MainApp extends StatelessWidget {
       routerDelegate: router.routerDelegate,
       routeInformationParser: router.routeInformationParser,
       routeInformationProvider: router.routeInformationProvider,
-    );
-  }
-}
-
-class PwaInstallScreen extends StatelessWidget {
-  const PwaInstallScreen({super.key});
-
-  void showInstallPrompt() {
-    js.context.callMethod('showInstallPrompt'); // Call JavaScript method
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: Text("Install PWA")),
-      body: Center(
-        child: ElevatedButton(
-          onPressed: showInstallPrompt,
-          child: Text("Install App"),
-        ),
-      ),
     );
   }
 }

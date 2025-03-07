@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_tasks_pro/example/graphql_screen.dart';
 import 'package:flutter_tasks_pro/example/pwa_prompt_screen.dart';
+import 'package:flutter_tasks_pro/example/web_socket_screen.dart';
 import './example/fingerprint_unlock.dart';
 import './example/implicit_animation.dart';
 import './example/lottie_animation.dart';
@@ -18,6 +19,7 @@ class HomeScreen extends StatelessWidget {
     {'title': 'Video Chat', 'screen': VideoCallScreen()},
     {'title': 'GraphQL API', 'screen': GraphqlScreen()},
     {'title': 'PWA Install', 'screen': PwaPromptScreen()},
+    {'title': 'Web Socket', 'screen': WebSocketScreen()},
   ];
 
   @override

@@ -1,0 +1,86 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/lib/firebase_options.dart
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+lib/firebase_options.dart
+firebase.json
+.firebaserc
+.firebase/hosting.LmZpcmViYXNlXHdlYnJ0Yy1oYW5kc2hha2Utc2VydmVyXGhvc3Rpbmc.cache
+.firebase/webrtc-handshake-server/hosting/.last_build_id
+.firebase/webrtc-handshake-server/hosting/favicon.png
+.firebase/webrtc-handshake-server/hosting/flutter_bootstrap.js
+.firebase/webrtc-handshake-server/hosting/flutter_service_worker.js
+.firebase/webrtc-handshake-server/hosting/flutter.js
+.firebase/webrtc-handshake-server/hosting/index.html
+.firebase/webrtc-handshake-server/hosting/main.dart.js
+.firebase/webrtc-handshake-server/hosting/manifest.json
+.firebase/webrtc-handshake-server/hosting/version.json
+.firebase/webrtc-handshake-server/hosting/assets/AssetManifest.bin
+.firebase/webrtc-handshake-server/hosting/assets/AssetManifest.bin.json
+.firebase/webrtc-handshake-server/hosting/assets/AssetManifest.json
+.firebase/webrtc-handshake-server/hosting/assets/FontManifest.json
+.firebase/webrtc-handshake-server/hosting/assets/NOTICES
+.firebase/webrtc-handshake-server/hosting/assets/assets/animation.json
+.firebase/webrtc-handshake-server/hosting/assets/fonts/MaterialIcons-Regular.otf
+.firebase/webrtc-handshake-server/hosting/assets/shaders/ink_sparkle.frag
+.firebase/webrtc-handshake-server/hosting/canvaskit/canvaskit.js
+.firebase/webrtc-handshake-server/hosting/canvaskit/canvaskit.js.symbols
+.firebase/webrtc-handshake-server/hosting/canvaskit/canvaskit.wasm
+.firebase/webrtc-handshake-server/hosting/canvaskit/skwasm_st.js
+.firebase/webrtc-handshake-server/hosting/canvaskit/skwasm_st.js.symbols
+.firebase/webrtc-handshake-server/hosting/canvaskit/skwasm_st.wasm
+.firebase/webrtc-handshake-server/hosting/canvaskit/skwasm.js
+.firebase/webrtc-handshake-server/hosting/canvaskit/skwasm.js.symbols
+.firebase/webrtc-handshake-server/hosting/canvaskit/skwasm.wasm
+.firebase/webrtc-handshake-server/hosting/canvaskit/chromium/canvaskit.js
+.firebase/webrtc-handshake-server/hosting/canvaskit/chromium/canvaskit.js.symbols
+.firebase/webrtc-handshake-server/hosting/canvaskit/chromium/canvaskit.wasm
+.firebase/webrtc-handshake-server/hosting/icons/Icon-192.png
+.firebase/webrtc-handshake-server/hosting/icons/Icon-512.png
+.firebase/webrtc-handshake-server/hosting/icons/Icon-maskable-192.png
+.firebase/webrtc-handshake-server/hosting/icons/Icon-maskable-512.png
+.firebase/webrtc-handshake-server/hosting/screenshots/screenshot1.png
+.firebase/webrtc-handshake-server/hosting/screenshots/screenshot2.png
+.vscode/tasks.json
+android/app/google-services.json

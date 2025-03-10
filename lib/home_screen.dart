@@ -8,6 +8,7 @@ import './example/lottie_animation.dart';
 import './example/riverpod_example.dart';
 import './example/deep_linking.dart';
 import './example/video_call_screen.dart';
+import './example/ml_kit_example.dart';
 
 class HomeScreen extends StatelessWidget {
   final List<Map<String, dynamic>> examples = [
@@ -20,6 +21,7 @@ class HomeScreen extends StatelessWidget {
     {'title': 'GraphQL API', 'screen': GraphqlScreen()},
     {'title': 'PWA Install', 'screen': PwaPromptScreen()},
     {'title': 'Web Socket', 'screen': WebSocketScreen()},
+    {'title': 'Face Detection', 'screen': FaceDetectorView()},
   ];
 
   @override
